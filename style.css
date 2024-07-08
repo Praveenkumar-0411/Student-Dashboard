@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ul{
+    margin: 5%;
+    list-style-type: none;
+    
+}
+.list a, .Logout a{
+    color: black;
+    text-decoration: none;
+}
+.content a{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    position: absolute;
+    width: 25%;
+    height: 100%; 
+    display: block;
+    
+}
+.Dashboard{
+position: relative;
+margin: 15%;
+    
+}
+
+.Dashboard h1{
+    font-size: larger;
+}
+
+.skills{
+    margin-top: 2%;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content{
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content > div{
+    text-align: center;
+}
+button{
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+h2{
+    margin-left: 25%;
+}
+.courses{
+    background-image: url(https://img.freepik.com/free-photo/dark-abstract-texture_1017-5788.jpg?size=626&ext=jpg);
+    background-position: 50%;
+    height: 220px;
+    margin-left: 25%;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.Tasks{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Tasks img{
+width: 100px;
+height: 100px;
+}
+.html, .css, .js{
+    background-color: white;
+padding: 10px;
+width: 50%;
+border-radius: 20px;
+    
+}
